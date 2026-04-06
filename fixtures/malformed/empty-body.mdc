@@ -1,0 +1,5 @@
+---
+description: An MDC rule with an empty body
+alwaysApply: false
+globs: "**/*.ts"
+---

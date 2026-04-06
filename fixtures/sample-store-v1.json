@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "memories": [
+    {
+      "id": "abc123",
+      "project": {
+        "name": "legacy-project",
+        "languages": ["JavaScript"],
+        "frameworks": ["Express"],
+        "runtimeHints": ["Node.js >=16"],
+        "rootPath": "/tmp/legacy-project",
+        "capturedAt": "2024-01-01T00:00:00.000Z"
+      },
+      "architecturePatterns": [],
+      "endpoints": [
+        { "method": "GET", "path": "/api/items", "description": "List items" }
+      ],
+      "workflows": [],
+      "serviceBoundaries": [],
+      "envKeys": [
+        { "key": "DATABASE_URL", "description": "", "source": ".env.example" }
+      ],
+      "mappingRules": [],
+      "cursorRules": [],
+      "rawSections": []
+    }
+  ]
+}

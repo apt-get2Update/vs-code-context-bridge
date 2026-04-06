@@ -1,0 +1,18 @@
+---
+description: API design patterns and conventions
+alwaysApply: false
+globs: src/routes/**/*.ts, src/controllers/**/*.ts
+---
+
+# API Patterns
+
+## REST Conventions
+- Use plural nouns for resource endpoints
+- GET /users - list, GET /users/:id - get one
+- POST /users - create, PUT /users/:id - update
+- DELETE /users/:id - remove
+
+## Error Responses
+- Always return { error: string, code: number }
+- Use HTTP status codes correctly
+- Log errors server-side, never expose stack traces

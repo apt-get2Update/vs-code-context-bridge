@@ -1,0 +1,13 @@
+---
+description: Coding standards for the sample API project
+alwaysApply: true
+globs: src/**/*.ts
+---
+
+# Coding Standards
+
+- Use TypeScript strict mode
+- All functions must have explicit return types
+- Use async/await over raw promises
+- Error handling: always catch and wrap errors with context
+- Prefer immutable data structures
